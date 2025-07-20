@@ -7,6 +7,74 @@
 
 
 
+.container12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height for centering */
+}
+
+#success-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 90%;
+    max-width: 400px; /* Max width for larger screens */
+}
+
+#header {
+    background-color: #28a745; /* Green background for success */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#check-svg {
+    width: 50px; /* Adjust size */
+    height: 50px;
+}
+
+#success-status {
+    font-size: 24px;
+    margin: 10px 0 0;
+}
+
+#body {
+    padding: 20px;
+    text-align: center;
+}
+
+#success-message {
+    font-size: 16px;
+    color: #333; /* Darker text for readability */
+}
+
+#retry-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #28a745; /* Button color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#retry-button:hover {
+    background-color: #5ac874; /* Darker shade on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    #success-status {
+        font-size: 20px; /* Smaller text on mobile */
+    }
+    
+    #success-message {
+        font-size: 14px; /* Smaller text on mobile */
+    }
+}
 
 
 
