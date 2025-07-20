@@ -16,9 +16,9 @@ html {
   box-sizing: inherit;
 }
 
-article, header, section, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+/* article, header, section, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
     display: block;
-}
+} */
 section {
     background:#e5e5e5 none repeat scroll 0 0;
     color: #222;
