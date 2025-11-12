@@ -5,7 +5,7 @@ const handleSubmit = async (event) => {
   const data = new FormData(form);
 
   try {
-    const res = await fetch("https://formsubmit.co/0d7963e7bc6b6b3082e5bfa791ec72cf", {
+    const res = await fetch("https://usebasin.com/f/d24bbc3f6575", {
       method: "POST",
       body: data,
     });
